@@ -7,10 +7,6 @@ Este proyecto es una suite de pruebas automatizadas utilizando [Playwright](http
 - [Requisitos Previos](#requisitos-previos)
 - [Instalación](#instalación)
 - [Estructura del Proyecto](#estructura-del-proyecto)
-- [Ejecutar Pruebas](#ejecutar-pruebas)
-- [Escribir Nuevas Pruebas](#escribir-nuevas-pruebas)
-- [Contribuciones](#contribuciones)
-- [Licencia](#licencia)
 
 ## Requisitos Previos
 
@@ -35,5 +31,19 @@ Antes de comenzar, asegúrate de tener instalado:
 
     ```bash
     npx playwright install
+
+## Estructura del proyecto
+
+```bash
+test-cicd/
+├── tests/               
+|  ├── pages/               
+|  │   ├── BasePage.ts
+|  |   ├── LoginPage.ts
+|  |   ├── TodoPage.ts 
+|  ├── todolist.spec.ts             
+├── playwright.config.ts  
+└── package.json         
+
 
 
